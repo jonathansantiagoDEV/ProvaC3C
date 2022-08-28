@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao-o1</title>
+
+    <script src="Questao01.js" defer></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+   
+    <h1 id="text">Tipos de Triângulo</h1>
+    <p>Digite abaixo os lados de um Triângulo.</p>
+    <label id="l1">Lado 1:</label>
+    <input type="number" name="lado1" onblur="validacao()"  id="lado1"  minlength="0" min="1" placeholder="Digite o lado..." >
+    <br/>
+    <br/>
+    <label id="l2">Lado 2:</label>
+    <input type="number" min="1" onblur="validacao()" name="lado2" id="lado2" placeholder="Digite o lado..."><br/>
+    <br/>
+    <label id="l3">Lado 3:</label>
+    <input type="number" min="1" onblur="validacao()" name="lado3" id="lado3" placeholder="Digite o lado..." ><br/>
+    <br>
+    <button id="conf">conferir</button>
+
+    <h4>O triângulo é:</h4><input type="text" name="triangulo" id="triangulo" disabled>
+    
+   
+</body>
+</html>
